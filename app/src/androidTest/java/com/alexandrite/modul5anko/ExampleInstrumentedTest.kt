@@ -1,4 +1,4 @@
-package com.alexandrite.hellokotlin
+package com.alexandrite.modul5anko
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.alexandrite.hellokotlin", appContext.packageName)
+        assertEquals("com.alexandrite.modul5anko", appContext.packageName)
     }
 }

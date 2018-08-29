@@ -1,4 +1,4 @@
-package com.alexandrite.hellokotlin
+package com.alexandrite.modul5anko
 
 import org.junit.Test
 
