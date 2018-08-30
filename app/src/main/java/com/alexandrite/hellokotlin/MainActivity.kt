@@ -4,10 +4,9 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
-import android.widget.TextView
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.startActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,8 +19,8 @@ class MainActivity : AppCompatActivity() {
         initData()
         club_list.layoutManager = LinearLayoutManager(this)
         club_list.adapter = RecyclerViewAdapter(this,items){
-            val toast = Toast.makeText(applicationContext, it.count.toString(), Toast.LENGTH_SHORT)
-            toast.show()
+//            Toast.makeText(applicationContext, it.count.toString(), Toast.LENGTH_SHORT).show()
+            startActivity<DetailActivity>("id" to it.count)
         }
     }
 

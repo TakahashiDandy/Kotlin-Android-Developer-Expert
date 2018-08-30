@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HelloKotlin</string>
+    <string name="app_name">Submission1-Dandy</string>
 
     <string-array name="club_name">
         <item>Barcelona FC</item>
@@ -22,5 +22,16 @@
         <item>@drawable/img_acm</item>
         <item>@drawable/img_arsenal</item>
     </array>
+
+    <string-array name="club_desc">
+        <item>This is Barcelona FC. Lorem Ipsum Dolor Sit Amet. The Quick Brown Fox Jumps Over The Lazy Dog</item>
+        <item>This is Real Madrid FC. Lorem Ipsum Dolor Sit Amet. The Quick Brown Fox Jumps Over The Lazy Dog</item>
+        <item>This is Bayern Muenchen FC. Lorem Ipsum Dolor Sit Amet. The Quick Brown Fox Jumps Over The Lazy Dog</item>
+        <item>This is Manchester City FC. Lorem Ipsum Dolor Sit Amet. The Quick Brown Fox Jumps Over The Lazy Dog</item>
+        <item>This is Manchester United FC. Lorem Ipsum Dolor Sit Amet. The Quick Brown Fox Jumps Over The Lazy Dog</item>
+        <item>This is Chelsea FC. Lorem Ipsum Dolor Sit Amet. The Quick Brown Fox Jumps Over The Lazy Dog</item>
+        <item>This is Ac Milan FC. Lorem Ipsum Dolor Sit Amet. The Quick Brown Fox Jumps Over The Lazy Dog</item>
+        <item>This is Arsenal FC. Lorem Ipsum Dolor Sit Amet. The Quick Brown Fox Jumps Over The Lazy Dog</item>
+    </string-array>
 
 </resources>
