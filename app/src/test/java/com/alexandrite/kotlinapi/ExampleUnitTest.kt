@@ -1,4 +1,4 @@
-package com.alexandrite.hellokotlin
+package com.alexandrite.kotlinapi
 
 import org.junit.Test
 
